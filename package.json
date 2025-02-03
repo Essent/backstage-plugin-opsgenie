@@ -19,7 +19,10 @@
   },
   "backstage": {
     "role": "frontend-plugin",
-    "pluginId": "plugin-opsgenie"
+    "pluginId": "opsgenie",
+    "pluginPackages": [
+      "backstage-plugin-opsgenie"
+    ]
   },
   "sideEffects": false,
   "scripts": {
