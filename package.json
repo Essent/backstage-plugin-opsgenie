@@ -61,14 +61,19 @@
     "@testing-library/user-event": "^13.1.8",
     "@types/dom-to-image": "^2.6.3",
     "@types/jest": "^26.0.7",
-    "@types/node": "^14.14.32",
+    "@types/node": "^18.19.74",
     "cross-fetch": "^3.0.6",
     "jest-canvas-mock": "^2.3.0",
     "jest-fetch-mock": "^3.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router": "^6.21.3",
-    "react-router-dom": "^6.21.3"
+    "react-router-dom": "^6.21.3",
+    "typescript": "^5.6.2"
+  },
+  "resolutions": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
   },
   "files": [
     "dist",

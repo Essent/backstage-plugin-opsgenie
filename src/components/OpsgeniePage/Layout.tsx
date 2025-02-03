@@ -28,7 +28,7 @@ function createSubRoutesFromChildren(
   ).type;
 
   return Children.toArray(childrenProps).flatMap(child => {
-    if (!isValidElement(child)) {
+    if (!isValidElement<SubRoute>(child)) {
       return [];
     }
 
